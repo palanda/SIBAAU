@@ -29,15 +29,15 @@ namespace BengkelAtmaAuto
         private void BtnLogin_Click(object sender, RoutedEventArgs e)
         {
            
-            if (tbUsername.Text.Equals("panda") && tbPassword.Equals("panda123"))
+            if (tbUsername.Text.Equals("panda") && tbPassword.Password.Equals("panda123"))
             {
                 menu dashboard = new menu();  //code buat pindah menu.,
                 dashboard.Show();
-                this.Hide();
+                this.Close();
             }
             else
             {
-
+                MessageBox.Show("Username atau Password tidak terdaftar!", "Perhatian!", MessageBoxButton.OK, MessageBoxImage.Warning);
             }
 
         }

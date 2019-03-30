@@ -157,5 +157,13 @@
   <ItemGroup>
     <Resource Include="Image1.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="asset\icons8-cash-in-hand-100.png" />
+    <Resource Include="asset\icons8-customer-100.png" />
+    <Resource Include="asset\icons8-girl-and-money-50.png" />
+    <Resource Include="asset\icons8-new-post-100.png" />
+    <Resource Include="asset\icons8-report-card-100.png" />
+    <Resource Include="asset\icons8-services-100.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
