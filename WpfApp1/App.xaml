@@ -1,0 +1,19 @@
+<Application x:Class="BengkelAtmaAuto.App" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"	xmlns:local="clr-namespace:BengkelAtmaAuto"	StartupUri="mainMenu.xaml">
+    <Application.Resources>
+    
+    <ResourceDictionary>
+    
+    
+    <ResourceDictionary.MergedDictionaries>
+    
+    
+    
+    <ResourceDictionary Source="/GenericCodes.CRUD.WPF;component/Resources/CRUDResources.xaml"/>
+    
+    
+    </ResourceDictionary.MergedDictionaries>
+    
+    </ResourceDictionary>
+         
+    </Application.Resources>
+</Application>
