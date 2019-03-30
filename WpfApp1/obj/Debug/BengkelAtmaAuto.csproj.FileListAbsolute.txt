@@ -25,3 +25,12 @@ E:\WpfApp1\WpfApp1\obj\Debug\BengkelAtmaAuto.g.resources
 E:\WpfApp1\WpfApp1\obj\Debug\BengkelAtmaAuto.Properties.Resources.resources
 E:\WpfApp1\WpfApp1\obj\Debug\BengkelAtmaAuto.exe
 E:\WpfApp1\WpfApp1\obj\Debug\BengkelAtmaAuto.pdb
+E:\WpfApp1\WpfApp1\bin\Debug\EntityFramework.dll
+E:\WpfApp1\WpfApp1\bin\Debug\EntityFramework.SqlServer.dll
+E:\WpfApp1\WpfApp1\bin\Debug\GenericCodes.Core.dll
+E:\WpfApp1\WpfApp1\bin\Debug\GenericCodes.CRUD.WPF.dll
+E:\WpfApp1\WpfApp1\bin\Debug\GenericCodes.Resources.dll
+E:\WpfApp1\WpfApp1\bin\Debug\EntityFramework.xml
+E:\WpfApp1\WpfApp1\bin\Debug\EntityFramework.SqlServer.xml
+E:\WpfApp1\WpfApp1\obj\Debug\App.baml
+E:\WpfApp1\WpfApp1\obj\Debug\BengkelAtmaAuto.csproj.CopyComplete

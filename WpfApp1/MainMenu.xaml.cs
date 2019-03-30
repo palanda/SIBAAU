@@ -29,17 +29,15 @@ namespace BengkelAtmaAuto
         private void BtnLogin_Click(object sender, RoutedEventArgs e)
         {
            
-            if (tbUsername.Text.Equals("panda") && tbPassword.Text.Equals("panda123"))
+            if (tbUsername.Text.Equals("panda") && tbPassword.Equals("panda123"))
             {
                 menu dashboard = new menu();  //code buat pindah menu.,
                 dashboard.Show();
-                this.Close();
+                this.Hide();
             }
             else
             {
-                mainMenu main = new mainMenu();
-                main.Show();
-                this.Close();
+
             }
 
         }
