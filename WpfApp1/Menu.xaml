@@ -22,32 +22,32 @@
         <Image  Grid.Column="1" Source="logo.png" Stretch="Uniform"/>
         <Button x:Name="btnLogout" Content="Log Out"  Grid.Column="3" Grid.Row="0" HorizontalAlignment="Center" Margin="0" VerticalAlignment="Center" Width="102" Background="#FF16DA0D" FontSize="14" FontWeight="Bold" Height="28"/>
 
-        <Button x:Name="btnAkunPegawai"  Content="Akun &amp; Pegawai" Grid.Column="0" Grid.Row="1" Margin="0" VerticalContentAlignment="Bottom" BorderThickness="0" BorderBrush="{x:Null}" Focusable="False" Foreground="Black" >
+        <Button x:Name="btnAkunPegawai"  Content="Akun &amp; Pegawai" Grid.Column="0" Grid.Row="1" Margin="0" VerticalContentAlignment="Bottom" >
             <Button.Background>
                 <ImageBrush ImageSource="/asset/icons8-customer-100.png" TileMode="Tile" Stretch="Uniform"/>
             </Button.Background>
         </Button>
-        <Button x:Name="btnBayarDiskon" Content="Pembayaran &amp; Hitung Diskon"  Grid.Column="1" Grid.Row="1" Margin="0" VerticalContentAlignment="Bottom" BorderBrush="{x:Null}" Focusable="False">
+        <Button x:Name="btnBayarDiskon" Content="Pembayaran &amp; Hitung Diskon"  Grid.Column="1" Grid.Row="1" Margin="0" VerticalContentAlignment="Bottom">
             <Button.Background>
                 <ImageBrush ImageSource="/asset/icons8-cash-in-hand-100.png" TileMode="Tile" Stretch="Uniform"/>
             </Button.Background>
         </Button>
-        <Button x:Name="btnSalesCabang" Content="Cabang &amp; Sales"  Grid.Column="2" Grid.Row="1" Margin="0" VerticalContentAlignment="Bottom" BorderBrush="{x:Null}" Focusable="False">
+        <Button x:Name="btnSalesCabang" Content="Cabang &amp; Sales"  Grid.Column="2" Grid.Row="1" Margin="0" VerticalContentAlignment="Bottom">
             <Button.Background>
                 <ImageBrush ImageSource="/asset/icons8-girl-and-money-50.png" TileMode="Tile" Stretch="Uniform"/>
             </Button.Background>
         </Button>
-        <Button x:Name="btnJasa" Content="Jasa"  Grid.Column="0" Grid.Row="2" Margin="0" VerticalContentAlignment="Bottom" BorderBrush="{x:Null}" Focusable="False">
+        <Button x:Name="btnJasa" Content="Jasa"  Grid.Column="0" Grid.Row="2" Margin="0" VerticalContentAlignment="Bottom">
             <Button.Background>
                 <ImageBrush ImageSource="/asset/icons8-services-100.png" TileMode="Tile" Stretch="Uniform"/>
             </Button.Background>
         </Button>
-        <Button x:Name="btnSurat" Content="Surat" Grid.Column="3" Grid.Row="2" Margin="0" VerticalContentAlignment="Bottom" BorderBrush="{x:Null}" Focusable="False">
+        <Button x:Name="btnSurat" Content="Surat" Grid.Column="3" Grid.Row="2" Margin="0" VerticalContentAlignment="Bottom">
             <Button.Background>
                 <ImageBrush ImageSource="/asset/icons8-new-post-100.png" TileMode="Tile" Stretch="Uniform"/>
             </Button.Background>
         </Button>
-        <Button x:Name="btnLaporan" Content="Laporan" Grid.Column="1" Grid.Row="2" Margin="0" VerticalContentAlignment="Bottom" BorderBrush="{x:Null}" Focusable="False">
+        <Button x:Name="btnLaporan" Content="Laporan" Grid.Column="1" Grid.Row="2" Margin="0" VerticalContentAlignment="Bottom">
             <Button.Background>
                 <ImageBrush ImageSource="/asset/icons8-report-card-100.png" TileMode="Tile" Stretch="Uniform"/>
             </Button.Background>
