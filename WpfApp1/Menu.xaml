@@ -24,7 +24,7 @@
 
         <Button x:Name="btnAkunPegawai"  Content="Akun &amp; Pegawai" Grid.Column="0" Grid.Row="1" Margin="0" VerticalContentAlignment="Bottom" >
             <Button.Background>
-                <ImageBrush ImageSource="/asset/icons8-customer-100.png" TileMode="Tile" Stretch="Uniform"/>
+                <ImageBrush ImageSource="/asset/icons8-customer-100.png"  TileMode="Tile" Stretch="Uniform"/>
             </Button.Background>
         </Button>
         <Button x:Name="btnBayarDiskon" Content="Pembayaran &amp; Hitung Diskon"  Grid.Column="1" Grid.Row="1" Margin="0" VerticalContentAlignment="Bottom">
