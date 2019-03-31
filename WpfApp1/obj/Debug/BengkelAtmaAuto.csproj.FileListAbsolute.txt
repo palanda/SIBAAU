@@ -34,3 +34,4 @@ E:\WpfApp1\WpfApp1\obj\Debug\BengkelAtmaAuto.csproj.CoreCompileInputs.cache
 E:\WpfApp1\WpfApp1\obj\Debug\BengkelAtmaAuto.csproj.CopyComplete
 E:\WpfApp1\WpfApp1\obj\Debug\BengkelAtmaAuto.exe
 E:\WpfApp1\WpfApp1\obj\Debug\BengkelAtmaAuto.pdb
+D:\Semester 6\P3L\sama Ichy\SIBAAU\WpfApp1\obj\Debug\BengkelAtmaAuto.exe.config
