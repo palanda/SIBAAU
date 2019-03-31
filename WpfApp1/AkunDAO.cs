@@ -4,8 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using MySql.Data.MySqlClient;
-using MySqlConnector;
+using MySql.Data;
 using System.Data;
+using System.Data.SqlClient;
 
 namespace BengkelAtmaAuto
 {
@@ -41,5 +42,9 @@ namespace BengkelAtmaAuto
             return ds;
         }
 
+        private MySqlDataAdapter MySqlDataAdapter(MySqlCommand task)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

@@ -1,5 +1,5 @@
 ﻿<Window x:Class="BengkelAtmaAuto.menu_Akun"
-        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+ xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
@@ -23,7 +23,7 @@
         <TextBox HorizontalAlignment="Left" Height="23" Margin="161,278,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="218"/>
         <Button x:Name="btnResetAkun" Content="Reset" HorizontalAlignment="Left" Margin="190,346,0,0" VerticalAlignment="Top" Width="61"  Height="31"/>
         <Button x:Name="btnSimpanAkun" Content="Simpan" HorizontalAlignment="Left" Margin="282,346,0,0" VerticalAlignment="Top" Width="61"  Height="31"/>
-        <DataGrid x:Name="dtas" HorizontalAlignment="Left" Height="182" Margin="492,198,0,0" VerticalAlignment="Top" Width="279" Uid="dtAkunPegawai" UseLayoutRounding="False" />
+        <DataGrid x:Name="dtAkun" ItemsSource="{Binding}"  AutoGenerateColumns="True" HorizontalAlignment="Left" Height="182" Margin="492,198,0,0" VerticalAlignment="Top" Width="279" Uid="dtAkunPegawai" UseLayoutRounding="False" Loaded="DtAkun_Loaded" />
         <Canvas HorizontalAlignment="Left" Height="55" Margin="15,120,0,0" VerticalAlignment="Top" Width="298"/>
     </Grid>
 </Window>
